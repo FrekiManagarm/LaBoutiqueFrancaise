@@ -19,7 +19,10 @@ Attention, j'ai fait un trop gros commit distant vous devez donc regarder le pro
 ## Première étape
 
 1. Faire un coup de : `composer install`
-2. Une fois toutes les dépendances installées faites un symf
+2. Une fois toutes les dépendances installées, il faut vous rendre dans le fichier `.env` afin de modifier les variable d'environnement de votre base de données.
+Pour ça, il suffit de vous rendre en bas du fichier et d'y renseigner le nom de base de votre choix.
+Si elle n'a pas été créé au préalable dans phpMyAdmin, vous pouvez faire le "**mode flemmard**" comme moi et taper en ligne de commande `symfony console doctrine:database:create` ou si vous êtes encore plus **flemmard** faites `symfony console d:d:c`.
+3. Une fois la database créée faites un `symfony console make:migration`. Cette commande vous permettra
 
 
 
