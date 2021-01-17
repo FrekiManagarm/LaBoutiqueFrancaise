@@ -18,7 +18,7 @@ Attention, j'ai fait un trop gros commit distant vous devez donc regarder le pro
 ## Première étape
 
 Faire un coup de :
-	composer install
+  composer install
 
 
 
